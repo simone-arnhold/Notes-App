@@ -18,6 +18,16 @@ body {
   padding-top: 3rem;
 }
 
+.description-header {
+  margin-left: 20px;
+  padding: 10px 10px 10px 20px;
+  /* max-width: 50vw; */
+  width: 400px;
+  background-color: #a9e7f8;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+
 .add {
   position: fixed;
   top: 1rem;
@@ -25,9 +35,19 @@ body {
   background-color: #e79b29;
   color: white;
   border: none;
-  border-radius: 3px;
-  padding: 0.5 rem 1rem;
+  border-radius: 30px;
+  /* padding: 0.5rem 1rem; */
+  padding: 1rem 2rem;
   cursor: pointer;
+  box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+}
+
+.main-space {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .note {

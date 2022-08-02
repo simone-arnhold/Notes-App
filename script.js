@@ -1,4 +1,5 @@
 const addBtn = document.getElementById("add")
+const mainSpace = document.querySelector(".main-space")
 
 const notes = JSON.parse(localStorage.getItem("notes"))
 
@@ -52,7 +53,7 @@ function addNewNote(text = "") {
   })
 
   // add something inside body
-  document.body.appendChild(note)
+  mainSpace.appendChild(note)
   console.log("clicked add button")
 }
 
